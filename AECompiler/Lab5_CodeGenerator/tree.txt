@@ -1,0 +1,4 @@
+add <id, 3> <60.0> <id, 1>
+mul <id, 4> <id, 2> <60>
+i2f <id, 5> <id, 4>
+add <id, 6> <id, 3> <id, 5>

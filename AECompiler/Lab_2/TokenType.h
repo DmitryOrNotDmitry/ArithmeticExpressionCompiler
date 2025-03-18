@@ -1,0 +1,20 @@
+#pragma once
+
+enum class TokenType {
+  UNKNOWN,
+
+  OPERATOR_PLUS,
+  OPERATOR_MINUS,
+  OPERATOR_MUL,
+  OPERATOR_DIV,
+
+  DOUBLE_CONST,
+  INT_CONST,
+
+  IDENTIFIER,
+
+  OPEN_BRACKET,
+  CLOSE_BRACKET,
+
+  INT_TO_FLOAT
+};
